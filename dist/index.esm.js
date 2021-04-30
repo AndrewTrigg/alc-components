@@ -45,7 +45,7 @@ var useStyles = makeStyles({
 function PrimaryButton(_a) {
     var children = _a.children, disabled = _a.disabled;
     var classes = useStyles();
-    return jsxs(MUIButton, __assign({ className: classes.root, disabled: disabled, variant: "outlined" }, { children: [children, "This is cool as hell"] }), void 0);
+    return jsxs(MUIButton, __assign({ className: classes.root, disabled: disabled, variant: "outlined" }, { children: [children, "This"] }), void 0);
 }
 function SecondaryButton(_a) {
     var children = _a.children, _b = _a.disabled, disabled = _b === void 0 ? false : _b;

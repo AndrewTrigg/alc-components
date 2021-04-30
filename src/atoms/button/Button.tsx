@@ -44,7 +44,7 @@ function PrimaryButton ({children, disabled}: ButtonProps) {
         className={classes.root}
         disabled={disabled} 
         variant="outlined"
-    >{children}This is cool as hell</MUIButton>
+    >{children}This</MUIButton>
 }
 
 function SecondaryButton ({children, disabled = false}: ButtonProps) {
